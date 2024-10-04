@@ -87,23 +87,20 @@ This regex uses `^` and `$` to assert boundaries:
 ## Summary and examples
 The regex: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/` is a well-structured pattern for validating email addresses, utilizing quantifiers, character classes, grouping, and boundary assertions. While it effectively checks for a valid email format, it has limitations and may not cover all possible valid email addresses according to the full specifications.
 # Example Matches
-example@mail.com
-user.name@sub.domain.co
-first_last123@company.org
+
+* example@mail.com
+* user.name@sub.domain.co
+* first_last123@company.org
 
 # Non-matches
-InvalidEmail@.com (no domain)
-user@domain.c (TLD too short)
-User@domain.com (uppercase letters not allowed in local part)
+
+* InvalidEmail@.com (no domain)
+* user@domain.c (TLD too short)
+* User@domain.com (uppercase letters not allowed in local part)
 
 ## Author
 
-Hello! I am Julio an i am a junior web developer with experience in creating efficient and engaging digital solutions. I specialize in front-end and back-end, always looking to optimize the user experience. Passionate about innovation, I enjoy taking on new challenges and collaborating on projects that make a difference.
+Hello! I am Julio and i am a junior web developer with experience in creating efficient and engaging digital solutions. I specialize in front-end and back-end, always looking to optimize the user experience. Passionate about innovation, I enjoy taking on new challenges and collaborating on projects that make a difference.
 
 # Github link:
-
-https://github.com/jeaq01/Regex-Tutorial-Starter-Code.git
-
-
-
-
+https://github.com/jeaq01/Matching-an-Email-Regex-explanation.git
